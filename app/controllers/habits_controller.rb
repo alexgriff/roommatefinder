@@ -11,7 +11,8 @@
 #  overnight_visitors :integer
 #  music              :integer
 #  user_id            :integer
-#
+# xxxxxxxxxxxxxxxx git test xxxxxxxxxxxxxx
+
 
 class HabitsController < ApplicationController
 
@@ -61,5 +62,6 @@ class HabitsController < ApplicationController
       end
       desired_habit_params
     end
+
 
 end
