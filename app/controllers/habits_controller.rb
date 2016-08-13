@@ -11,7 +11,8 @@
 #  overnight_visitors :integer
 #  music              :integer
 #  user_id            :integer
-#
+# xxxxxxxxxxxxxxxx git test xxxxxxxxxxxxxx
+
 
 class HabitsController < ApplicationController
  def new
@@ -45,7 +46,7 @@ class HabitsController < ApplicationController
     @user.desired_habit.update(desired_habit_params[:desired_habit_attributes])
     redirect_to @user
   end
-  
+
   private
 
   def habit_params
@@ -68,5 +69,5 @@ class HabitsController < ApplicationController
 #  overnight_visitors :string
 #  music              :string
 #
- 
+
 end
